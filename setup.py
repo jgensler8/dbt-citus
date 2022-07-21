@@ -16,5 +16,5 @@ setup(
     url="https://github.com/jgensler8/dbt-citus",
     packages=find_namespace_packages(include=["dbt", "dbt.*"]),
     include_package_data=True,
-    install_requires=["dbt-core=1.1.1", "dbt-postgres=1.1.1"],
+    install_requires=["dbt-core==1.1.1", "dbt-postgres==1.1.1"],
 )
