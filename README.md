@@ -43,7 +43,7 @@ pytest .\tests\functional\adapter\test_distributed.py
 
 ### Notes
 
-To understand the inner workings, check out the `citus__create_table_as` macros definite in (adapters.sql)[dbt/include/citus/macros/adapters.sql]
+To understand the inner workings, check out the `citus__create_table_as` macros definite in [adapters.sql](dbt/include/citus/macros/adapters.sql)
 
 ```
 {% macro citus__create_table_as(temporary, relation, sql) %}
